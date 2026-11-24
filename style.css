@@ -1,0 +1,35 @@
+* {
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 65px;
+    gap: 8px;
+}
+
+.big-4 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.wide-2 {
+    grid-column: span 2;
+}
+
+.tall-2 {
+    grid-row: span 2;
+}
+
+.c1 {background: #2672ec;}
+.c2 {background: #ff00ea;}
+.c3 {background: #00ff00;}
+.c4 {background: #d526ec;}
+.c5 {background: #ae113d;}
+.c6 {background: #60a917;}
+.c7 {background: #e3a21a;}
+.c8 {background: #1181b2;}
+.c9 {background: #da532c;}
